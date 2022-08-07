@@ -23,8 +23,8 @@
 }
 
 :root {
-  --color-primary: #324435;
-  --color-secondary: #61834d;
+  --color-primary: #2A0944;
+  --color-secondary: #3FA796;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -40,7 +40,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #b8e05b;
+  --color-secondary: #00eb81;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -217,6 +217,7 @@ section {
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
+  text-shadow: 2px 2px 2px black;
 }
 .header-content .right-header p {
   margin: 1.5rem 0;
@@ -327,22 +328,22 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 30%;
+  width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 10%;
+  width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 1%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 1%;
+  width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 1%;
+  width: 40%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 60%;
+  width: 70%;
 }
 
 .stat-title {
@@ -415,7 +416,8 @@ section {
 }
 
 .port-text {
-  padding: 2rem 0;
+  padding: 10px 10px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
