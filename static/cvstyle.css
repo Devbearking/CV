@@ -1,0 +1,32 @@
+.profileimg{
+    height:250px ;
+    width: 250px;
+    padding-left: 25px;
+    padding-top: 25px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.title_name{
+    margin-left: 20px;
+    padding-top: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: xxx-large;
+    letter-spacing: normal;
+}
+.cvTable{
+    position:absolute;
+    margin-left: 150px;
+}
+.rowTitleView{
+   
+    background-color: rgb(255, 184, 53);
+}
+.imgradios{
+    height:300px ;
+    width: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: rgb(255, 184, 53);
+}
