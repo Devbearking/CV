@@ -22,7 +22,7 @@
 	width: 100%;
 }
 
-:root {
+.light-mode {
   --color-primary: #2A0944;
   --color-secondary: #3FA796;
   --color-white: #ffffff;
@@ -38,7 +38,7 @@
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
-.light-mode {
+:root {
   --color-primary: #FFFFFF;
   --color-secondary: #00eb81;
   --color-white: #454e56;
