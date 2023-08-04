@@ -628,7 +628,7 @@ section {
   border: none;
   background-color: var(--color-grey-5);
   width: 100%;
-  color: var(--color-white);
+  color: var(--color-grey-5);
   resize: none;
 }
 .contact-content-con .right-contact .i-c-2 {
