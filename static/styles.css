@@ -959,10 +959,6 @@ section {
   .left-header .h-shape {
     display: none;
   }
-  .left-header .image {
-    /* width: 90% !important;
-    margin: 0 auto !important; */
-  }
 
   .right-header {
     grid-row: 0;
